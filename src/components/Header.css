@@ -6,10 +6,6 @@
   padding: 2rem 2rem;
   font-weight: 500;
 }
-.navbar-expand {
-  flex-wrap: nowrap;
-  justify-content: flex-end;
-}
 
 .main-logo {
   width: 130px;
