@@ -1,0 +1,36 @@
+.nav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 2rem 2rem;
+}
+
+.main-logo {
+  width: 130px;
+  max-width: 100%;
+  height: auto;
+  z-index: 0;
+  align-items: center;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+  padding: 0 40px 0 0;
+  text-decoration: none;
+  font-size: min(max(1vw, 10px), 15px);
+  color: #084474;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.header-line {
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  height: 2px;
+  border: none;
+  background: #a55a14;
+  width: 100%;
+  z-index: 1;
+  color: #d69456;
+}
