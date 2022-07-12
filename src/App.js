@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Home from "./components/Home";
 import Immobilien from "./components/Immobilien";
+import Projekte from "./components/Projekte";
 import Uber from "./components/Uber";
 
 function App() {
@@ -9,9 +9,9 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/immobilien" element={<Immobilien />} />
+        <Route path="/" element={<Immobilien />} />
         <Route path="/uber" element={<Uber />} />
+        <Route path="/projekte" element={<Projekte />} />
       </Routes>
     </BrowserRouter>
   );

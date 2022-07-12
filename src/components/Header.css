@@ -5,6 +5,10 @@
   margin: auto;
   padding: 2rem 2rem;
 }
+.navbar-expand {
+  flex-wrap: nowrap;
+  justify-content: center;
+}
 
 .main-logo {
   width: 130px;

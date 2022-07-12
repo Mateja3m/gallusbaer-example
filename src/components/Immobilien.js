@@ -1,7 +1,12 @@
-import React from "react";
+import Banner from "../img/main-banner.jpg";
+import "./Immobilien.css";
 
-const Immobilien = () => {
-  return <div>Immobilien</div>;
+const Home = () => {
+  return (
+    <div className="main-banner">
+      <img className="banner" src={Banner} alt="balgach Banner" />
+    </div>
+  );
 };
 
-export default Immobilien;
+export default Home;

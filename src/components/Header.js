@@ -1,7 +1,7 @@
-import "./Header.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Logo from "../img/LOGO-GALLUS-BAER-v2-01.png";
+import "./Header.css";
 
 const Header = () => {
   return (
@@ -10,8 +10,8 @@ const Header = () => {
       <Navbar collapseOnSelect bg="light" variant="light">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="m-auto pl-4">
-            <Nav.Link as={Link} to="/immobilien">
+          <Nav>
+            <Nav.Link as={Link} to="/">
               IMMOBILIEN
             </Nav.Link>
             <Nav.Link as={Link} to="/projekte">
@@ -27,7 +27,7 @@ const Header = () => {
               />
             </Nav.Link>
           </Nav>
-          <Nav className="m-auto">
+          <Nav>
             <Nav.Link as={Link} to="/uber">
               ÜBER UNS
             </Nav.Link>
