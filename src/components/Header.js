@@ -7,14 +7,14 @@ const Header = () => {
   return (
     <div className="nav">
       <hr className="header-line" size="3" />
-      <Navbar collapseOnSelect bg="light" variant="light">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar bg="light" variant="light" expand="lg">
+        <Navbar.Toggle />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
-            <Nav.Link as={Link} to="/">
+            <Nav.Link className="immobilien links" as={Link} to="/">
               IMMOBILIEN
             </Nav.Link>
-            <Nav.Link as={Link} to="/projekte">
+            <Nav.Link className="links" as={Link} to="/projekte">
               PROJEKTE
             </Nav.Link>
           </Nav>
@@ -28,13 +28,13 @@ const Header = () => {
             </Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link as={Link} to="/uber">
+            <Nav.Link className="links" as={Link} to="/uber">
               ÜBER UNS
             </Nav.Link>
-            <Nav.Link as={Link} to="/losungen">
+            <Nav.Link className="links" as={Link} to="/losungen">
               LÖSUNGEN
             </Nav.Link>
-            <Nav.Link as={Link} to="/kontakt">
+            <Nav.Link className="links" as={Link} to="/kontakt">
               KONTAKT
             </Nav.Link>
           </Nav>
