@@ -1,5 +1,5 @@
 .image {
-  height: calc(100vh - 140px);
+  height: calc(100vh - 139px);
 }
 
 @media only screen and (max-width: 768px) {
