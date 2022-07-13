@@ -1,9 +1,10 @@
 import Balgach from "../img/balgach1.png";
 import "./Projekte.css";
+import { Link } from "react-router-dom";
 
 const Projekte = () => {
   return (
-    <section>
+    <section className="projekte">
       <div className="container">
         <div className="title-container">
           <h3 className="projekte-title3">PROJEKTE</h3>
@@ -12,12 +13,14 @@ const Projekte = () => {
           </h2>
           <div className="row-img">
             <img src={Balgach} alt="img" />
-            <div className="text">
-              <p>
-                <strong>Balgach</strong>
-              </p>
-              <p>Eigentumswohnung</p>
-            </div>
+            <Link to="/">
+              <div className="text">
+                <p>
+                  <strong>Balgach</strong>
+                </p>
+                <p>Eigentumswohnung</p>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

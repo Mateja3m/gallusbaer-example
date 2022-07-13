@@ -3,7 +3,7 @@ import House from "../img/ueber-uns1.jpg";
 
 const Uber = () => {
   return (
-    <section>
+    <section className="uber">
       <div className="container">
         <div className="title-container">
           <h3 className="uber-heading3">ÜBER UNS</h3>
