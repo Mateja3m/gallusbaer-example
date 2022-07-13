@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   margin: auto;
-  padding: 2rem 2rem;
+  padding: 0.7rem 2rem 1rem 2rem;
   font-weight: 500;
 }
 
@@ -23,11 +23,11 @@
 
 .header-line {
   position: absolute;
-  top: 85px;
+  top: 67px;
   left: 0px;
   height: 2px;
   border: none;
-  background: #a55a14;
+  background: #814812;
   width: 100%;
   z-index: 1;
   color: #d69456;

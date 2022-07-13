@@ -1,12 +1,8 @@
 import Banner from "../img/main-banner.jpg";
-import "./Immobilien.css";
+import { Card } from "react-bootstrap";
 
 const Home = () => {
-  return (
-    <div className="main-banner">
-      <img className="banner" src={Banner} alt="balgach Banner" />
-    </div>
-  );
+  return <Card.Img src={Banner} />;
 };
 
 export default Home;
