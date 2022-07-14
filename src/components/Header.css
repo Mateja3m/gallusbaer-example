@@ -44,13 +44,23 @@
     justify-content: flex-end;
     background-color: white;
   }
+  .nav::before {
+    content: url(../img/logo-gallus-baer-v2-02.png);
+    position: absolute;
+    width: 50px;
+    height: auto;
+    margin: 16px 0 0 16px;
+    top: 0;
+    left: 0;
+  }
   .navbar {
     display: flex;
     justify-content: flex-end;
+    margin-top: 32px;
   }
   button {
     border: none;
-    margin-right: 10px;
+    margin-right: 16px;
     border: none;
   }
 
