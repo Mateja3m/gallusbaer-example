@@ -1,10 +1,11 @@
-import "./Losungen.css";
-import LogoSM from "../img/baer_gb.png";
+import { Container } from "react-bootstrap";
+import "./Losungen.scss";
+import LogoSM from "../../img/baer_gb.png";
 
 const Losungen = () => {
   return (
-    <div className="losungen">
-      <div className="container">
+    <Container className="losungen">
+      <div className="container1">
         <section className="title-container">
           <h3 className="los-heading">IHR ZIEL IST DAS ZIEL.</h3>
           <h2 className="los-text">
@@ -99,7 +100,7 @@ const Losungen = () => {
           </div>
         </section>
       </div>
-    </div>
+    </Container>
   );
 };
 

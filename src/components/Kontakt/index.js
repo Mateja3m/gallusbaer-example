@@ -1,6 +1,6 @@
 import { Container, Card } from "react-bootstrap";
-import "./Kontakt.css";
-import KontaktImage from "../img/logo-karte4.png";
+import "./Kontakt.scss";
+import KontaktImage from "../../img/logo-karte4.png";
 
 const Kontakt = () => {
   return (
@@ -8,6 +8,14 @@ const Kontakt = () => {
       <Container className="kontakt-wrapper">
         <Card.Body className="img-wrapper">
           <Card.Img className="kontakt-img" src={KontaktImage} />
+          <Card.Text>
+            Gallus Baer AG <br />
+            Brühlgasse 25 <br />
+            9000 St. Gallen <br />
+            <strong>welcome@gallusbaer.ch</strong>
+            <br />
+            <strong>+41 71 552 20 15</strong>
+          </Card.Text>
         </Card.Body>
         <Card.Body>
           <Card.Title className="kontakt-heading">KONTAKT</Card.Title>

@@ -1,11 +1,11 @@
-import Balgach from "../img/balgach1.png";
-import "./Projekte.css";
+import Balgach from "../../img/balgach1.png";
+import "./Projekte.scss";
 import { Link } from "react-router-dom";
 
 const Projekte = () => {
   return (
     <section className="projekte">
-      <div className="container">
+      <div className="container2">
         <div className="title-container">
           <h3 className="projekte-title3">PROJEKTE</h3>
           <h2 className="projekte-title2">
