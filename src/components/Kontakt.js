@@ -1,11 +1,13 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Card } from "react-bootstrap";
 import "./Kontakt.css";
+import KontaktImage from "../img/logo-karte4.png";
+
 const Kontakt = () => {
   return (
     <Container>
-      <Row>
-        <Col></Col>
-      </Row>
+      <Card>
+        <Card.Img src={KontaktImage} />
+      </Card>
     </Container>
   );
 };
