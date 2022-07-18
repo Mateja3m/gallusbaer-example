@@ -1,24 +1,21 @@
 import { Container, Row, Col } from "react-bootstrap";
-import "./Losungen.scss";
-
-import SingleCircle from "./SingleCircle";
+import "./Styles.scss";
+import Circles from "../Circles";
 const Losungen = () => {
   return (
-    <section className="py-5 losungen d-flex justify-content-center">
-      <Container className="container-fluid">
-        <Row>
-          <Col className="text-center">
-            <h3 className="los-heading py-3">IHR ZIEL IST DAS ZIEL.</h3>
-            <h2 className="text-light los-text">
-              Vom Suchen, Finden und <br />
-              Vermitteln der
-              <br /> Traumimmobilien.
-            </h2>
-          </Col>
-        </Row>
-        <SingleCircle />
-      </Container>
-    </section>
+    <Container id="losungen" fluid>
+      <Row className="m-auto">
+        <Col lg={9} className="m-auto">
+          <h3 className="text-center los-heading">IHR ZIEL IST DAS ZIEL.</h3>
+          <h2 className="text-center text-light los-text">
+            Vom Suchen, Finden und <br />
+            Vermitteln der
+            <br /> Traumimmobilien.
+          </h2>
+        </Col>
+      </Row>
+      <Circles />
+    </Container>
   );
 };
 

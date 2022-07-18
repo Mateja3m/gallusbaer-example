@@ -1,5 +1,5 @@
 import Balgach from "../../img/balgach1.png";
-import "./Projekte.scss";
+import "./Styles.scss";
 import { Link } from "react-router-dom";
 
 const Projekte = () => {

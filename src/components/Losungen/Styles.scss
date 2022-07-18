@@ -1,10 +1,6 @@
-.losungen {
-  padding: 0 2vw;
+#losungen {
+  padding: 10rem 0;
   background-color: #d5a77b;
-}
-
-.container {
-  width: 960px;
 }
 
 .los-heading {
@@ -48,12 +44,4 @@
   font-weight: 300;
   font-style: italic;
   line-height: 1.375rem;
-}
-
-@media only screen and (max-width: 768px) {
-  .wrapper {
-    display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
-  }
 }
