@@ -13,6 +13,7 @@ const Circles = () => {
               key={id}
               className="d-flex justify-content-center"
               lg={4}
+              md={4}
               sm={6}
             >
               <SingleCircle title={title} text={text} />

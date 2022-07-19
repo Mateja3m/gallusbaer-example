@@ -1,30 +1,30 @@
 import Balgach from "../../img/balgach1.png";
 import "./Styles.scss";
-import { Link } from "react-router-dom";
+import { Row, Container, Col } from "react-bootstrap";
 
 const Projekte = () => {
   return (
-    <section className="projekte">
-      <div className="container2">
-        <div className="title-container">
-          <h3 className="projekte-title3">PROJEKTE</h3>
-          <h2 className="projekte-title2">
+    <Container id="projekte" className="mt-5 px-1 g-0">
+      <Row className="d-flex justify-content-center">
+        <Col lg={9} className="text-center">
+          <h3 className="projekte-heading ">PROJEKTE</h3>
+          <h2 className="projekte-text">
             Möchten Sie hier wohnen? Kommen Sie näher, sehen Sie selbst.
           </h2>
-          <div className="row-img">
-            <img src={Balgach} alt="img" />
-            <Link to="/">
-              <div className="text">
-                <p>
-                  <strong>Balgach</strong>
-                </p>
-                <p>Eigentumswohnung</p>
-              </div>
-            </Link>
-          </div>
-        </div>
-      </div>
-    </section>
+        </Col>
+      </Row>
+      <Row className="d-flex justify-content-center overlay-parent">
+        <Col lg={9}>
+          <img src={Balgach} alt="img" className="w-25" />
+        </Col>
+        <Col lg={9} className="text">
+          <h6>
+            <strong>Balgach</strong>
+          </h6>
+          <p>Eigentumswohnung</p>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

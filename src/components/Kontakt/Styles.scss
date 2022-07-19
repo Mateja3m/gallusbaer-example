@@ -1,26 +1,6 @@
-.kontakt {
+#kontakt {
   background-color: #c9d4de;
-}
-
-.kontakt-wrapper {
-  display: grid;
-  grid-template-columns: 1fr minmax(500px, 3fr);
-  gap: 2rem;
-  align-items: flex-start;
-  max-width: 100%;
-  width: 960px;
-}
-
-.img-wrapper {
-  display: grid;
-  grid-template-columns: auto;
-  gap: 2rem;
-  align-items: flex-end;
-  padding: 20px 0;
-}
-.kontakt-img {
-  max-width: 100%;
-  height: auto;
+  padding: 10rem 0;
 }
 
 .kontakt-heading {

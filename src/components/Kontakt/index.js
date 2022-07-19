@@ -1,30 +1,33 @@
-import { Container, Card } from "react-bootstrap";
-import "./Kontakt.scss";
+import { Container, Row, Col } from "react-bootstrap";
+import "./Styles.scss";
 import KontaktImage from "../../img/logo-karte4.png";
+import KontaktForm from "../../components/KontaktForm";
 
 const Kontakt = () => {
   return (
-    <section className="kontakt">
-      <Container className="kontakt-wrapper">
-        <Card.Body className="img-wrapper">
-          <Card.Img className="kontakt-img" src={KontaktImage} />
-          <Card.Text>
+    <Container id="kontakt" fluid>
+      <Row className="justify-content-center">
+        <Col lg={2} className="align-items-start">
+          <img className="w-75 pt-4" src={KontaktImage} alt="Kontakt" />
+          <p className="pt-4">
             Gallus Baer AG <br />
             Brühlgasse 25 <br />
             9000 St. Gallen <br />
             <strong>welcome@gallusbaer.ch</strong>
             <br />
             <strong>+41 71 552 20 15</strong>
-          </Card.Text>
-        </Card.Body>
-        <Card.Body>
-          <Card.Title className="kontakt-heading">KONTAKT</Card.Title>
-          <Card.Title className="kontakt-text">
-            Überzeugen Sie sich selbst. Lassen Sie sich beraten.
-          </Card.Title>
-        </Card.Body>
-      </Container>
-    </section>
+          </p>
+        </Col>
+        <Col lg={6} className="align-self-start">
+          <h1 className="kontakt-heading">KONTAKT</h1>
+          <h2 className="kontakt-text">
+            Überzeugen Sie sich <br /> selbst.
+            <br /> Lassen Sie sich beraten.
+          </h2>
+          <KontaktForm />
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

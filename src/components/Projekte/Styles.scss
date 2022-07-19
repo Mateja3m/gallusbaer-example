@@ -1,52 +1,33 @@
-.projekte {
-  padding: 0 2vw;
-}
-
-.container2 {
-  width: min(100%, 960px);
-  height: auto;
+#projekte {
   padding: 10rem 0;
-  margin: 0 auto;
 }
 
-.projekte-title3 {
+.overlay-parent {
+  position: relative;
+}
+
+.projekte-heading {
   font-size: 1.4rem;
   font-weight: 600;
   color: #d6a67a;
   padding: 0.7rem 0;
-  text-align: center;
 }
 
-.projekte-title2 {
+.projekte-text {
   font-family: "RawsonAlt-Bold";
   font-size: min(max(4.5vw, 40px), 60px);
   line-height: min(max(4.5vw, 40px), 60px);
   font-weight: 600;
   padding: 0 0 4rem 0;
   color: #084474;
-  text-align: center;
 }
 
-.row-img {
-  position: relative;
-  display: grid;
-  max-width: 960px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 9rem 4rem;
-}
-
-.row-img img {
-  width: 256px;
-  height: 350px;
-  min-width: auto;
-  min-height: auto;
-}
-
+// do this
 .text {
   position: absolute;
-  bottom: 10%;
-  left: 20%;
-  margin: -120px -20px 0 0;
+  bottom: 0;
+  left: 0;
+  // margin: 0 120px 0 -20px;
   border: 2px solid #d6a67a;
   width: 200px;
   height: 70px;

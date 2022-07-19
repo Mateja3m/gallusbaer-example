@@ -4,7 +4,7 @@ import "../Losungen/Styles.scss";
 
 const SingleCircle = ({ title, text }) => {
   return (
-    <Row className="d-flex justify-content-center">
+    <Row>
       <Col>
         <Card className="bg-light circle text-center p-1 m-2">
           <Card.Body className="inner-circle">
