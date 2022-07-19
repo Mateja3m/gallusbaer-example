@@ -6,7 +6,7 @@ import KontaktForm from "../../components/KontaktForm";
 const Kontakt = () => {
   return (
     <Container id="kontakt" fluid>
-      <Row className="justify-content-center">
+      <Row className="justify-content-center g-0">
         <Col lg={2} className="align-items-start">
           <img className="w-75 pt-4" src={KontaktImage} alt="Kontakt" />
           <p className="pt-4">

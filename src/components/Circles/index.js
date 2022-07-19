@@ -4,10 +4,9 @@ import { Row, Col } from "react-bootstrap";
 
 const Circles = () => {
   return (
-    <>
-      <Row className="mx-5">
-        {data.map((item) => {
-          const { id, title, text } = item;
+       <Row className="g-0">
+       {data.map((item) => {
+         const { id, title, text } = item;
           return (
             <Col
               key={id}
@@ -21,7 +20,7 @@ const Circles = () => {
           );
         })}
       </Row>
-    </>
+    
   );
 };
 

@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <Row id="immobilien">
+      <Row id="immobilien" className='gx-0'>
         <Image className="img-fluid col-12" src={Banner} />
       </Row>
       <Uber />

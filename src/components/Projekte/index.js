@@ -4,8 +4,8 @@ import { Row, Container, Col } from "react-bootstrap";
 
 const Projekte = () => {
   return (
-    <Container id="projekte" className="mt-5 px-1 g-0">
-      <Row className="d-flex justify-content-center">
+    <Container id="projekte" className="mt-5 px-1">
+      <Row className="d-flex justify-content-center g-0">
         <Col lg={9} className="text-center">
           <h3 className="projekte-heading ">PROJEKTE</h3>
           <h2 className="projekte-text">
@@ -13,7 +13,7 @@ const Projekte = () => {
           </h2>
         </Col>
       </Row>
-      <Row className="d-flex justify-content-center overlay-parent">
+      <Row className="d-flex justify-content-center overlay-parent g-0">
         <Col lg={9}>
           <img src={Balgach} alt="img" className="w-25" />
         </Col>

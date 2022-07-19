@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const Uber = () => {
   return (
     <Container id="uber" fluid className="mt-5 px-5">
-      <Row className="justify-content-center">
+      <Row className="justify-content-center g-0">
         <Col lg={8}>
           <h3 className="uber-title">ÜBER UNS</h3>
           <h2 className="uber-text">
@@ -13,7 +13,7 @@ const Uber = () => {
           </h2>
         </Col>
       </Row>
-      <Row className="justify-content-center">
+      <Row className="justify-content-center g-0">
         <Col
           lg={8}
           className="d-lg-flex justify-content-between align-items-center"

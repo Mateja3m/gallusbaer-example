@@ -4,7 +4,7 @@ import Circles from "../Circles";
 const Losungen = () => {
   return (
     <Container id="losungen" fluid>
-      <Row>
+      <Row className='g-0'>
         <Col lg={9} className="m-auto">
           <h3 className="text-center los-heading">IHR ZIEL IST DAS ZIEL.</h3>
           <h2 className="text-center text-light los-text">

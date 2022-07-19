@@ -17,7 +17,7 @@ const Header = () => {
           <Nav.Link className="links" href="#projekte">
             PROJEKTE
           </Nav.Link>
-          <Nav.Link className="links d-sm-none d-md-block d-none" href="#">
+          <Nav.Link className="links d-sm-none d-md-block d-none" href="#immobilien">
             <img className="main-logo" src={Logo} alt="logo" />
           </Nav.Link>
           <Nav.Link className="links" href="#uber">

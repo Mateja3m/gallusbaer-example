@@ -1,10 +1,10 @@
 import LogoSM from "../../img/baer_gb.png";
-import { Card, Col, Row } from "react-bootstrap";
+import {Card, Col, Row } from "react-bootstrap";
 import "../Losungen/Styles.scss";
 
 const SingleCircle = ({ title, text }) => {
   return (
-    <Row>
+    <Row className='mx-5 g-0'>
       <Col>
         <Card className="bg-light circle text-center p-1 m-2">
           <Card.Body className="inner-circle">
@@ -15,6 +15,7 @@ const SingleCircle = ({ title, text }) => {
         </Card>
       </Col>
     </Row>
+ 
   );
 };
 

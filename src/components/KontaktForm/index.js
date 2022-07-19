@@ -1,68 +1,87 @@
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
+
+import {Row, Form, Col} from 'react-bootstrap'
+
+import './Styles.scss'
 
 const KontaktForm = () => {
   return (
     <Form>
-      <Form.Group className="mb-3 d-flex justify-content-between">
+      <Row className="mb-3 g-0">
+      <Form.Group as={Col} className="d-flex justify-content-between">
         <Form.Control
-          className="w-50 p-3 me-3"
+          className="p-3"
           type="text"
-          placeholder="Enter email"
-        />
-        <Form.Control
-          className="w-50 p-3"
-          type="text"
-          placeholder="Enter email"
+          placeholder="Enter name"
         />
       </Form.Group>
-      <Form.Group className="mb-3 d-flex justify-content-between">
+      <Form.Group as={Col} className="d-flex justify-content-between">
         <Form.Control
-          className="w-50 p-3 me-3"
+          className="p-3"
           type="text"
-          placeholder="Enter email"
-        />
+          placeholder="Enter last name"
+          />
+          </Form.Group>
+          </Row>
+          <Row className="mb-3 g-0">
+          <Form.Group as={Col} className="d-flex justify-content-between">
         <Form.Control
-          className="w-50 p-3"
+          className="p-3"
           type="text"
-          placeholder="Enter email"
+          placeholder="Enter mail"
         />
       </Form.Group>
-      <Form.Label>Ich bin interessiert an:</Form.Label>
-      <Form.Group
-        className="mb-3 bg-light p-2 d-flex justify-content-between flex-wrap align-items-center"
-        controlId="formBasicCheckbox"
-      >
+      <Form.Group as={Col} className="d-flex justify-content-between">
+        <Form.Control
+          className="p-3"
+          type="text"
+          placeholder="Enter betreff"
+          />
+          </Form.Group>
+          </Row>
+          <Row className="mb-3 g-0">
+            <Form.Label>Ich bin interessiert an:</Form.Label>
+      <Form.Group as={Col}
+        className="bg-light d-flex flex-wrap align-items-center"
+        >
         <Form.Check
-          className="mx-2 align-self-center"
+          className=" "
           type="checkbox"
           label="Visualisierungen"
         />
         <Form.Check
-          className="mx-2 align-self-center "
+          className=""
           type="checkbox"
           label="Möbel"
         />
         <Form.Check
-          className="mx-2 align-self-center"
+          className=" "
           type="checkbox"
           label="Inneneinrichtung"
         />
         <Form.Check
-          className="mx-2 align-self-center"
+          className=" "
           type="checkbox"
           label="Käuferberatung"
         />
         <Form.Check
-          className="mx-2"
+          className=""
           type="checkbox"
           label="Eigenkapitalaufstockung"
         />
-        <Form.Check className="mx-2" type="checkbox" label="Hypotheken" />
+        <Form.Check className=" " type="checkbox" label="Hypotheken" />
       </Form.Group>
+          </Row>
+        {/* 
+      
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Control as="textarea" cols={40} rows={10} className='text-center'>Liebes Gallus Baer Team, ich habe folgende Anfrage…</Form.Control>
+      </Form.Group>
+      <p className='ml-3 w-25'>Diese Website ist durch reCAPTCHA geschützt
+und es gelten die Datenschutzbestimmungen
+und Nutzungsbedingungen von Google</p>
       <Button variant="primary" type="submit">
         Submit
-      </Button>
+      </Button> */}
     </Form>
   );
 };
