@@ -4,7 +4,8 @@ import "./Styles.scss";
 
 const Header = () => {
   return (
-    <Navbar fixed="top" bg="light" variant="light" expand="lg">
+    
+        <Navbar fixed="top" bg="light" variant="light" expand="lg">
       <Navbar.Brand className="d-lg-none">
         <img className="main-logo" src={Logo} alt="logo" />
       </Navbar.Brand>
