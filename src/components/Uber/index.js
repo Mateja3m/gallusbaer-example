@@ -1,6 +1,9 @@
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Image from "react-bootstrap/Image";
 import "./Styles.scss";
 import House from "../../img/ueber-uns1.jpg";
-import { Container, Row, Col } from "react-bootstrap";
 
 const Uber = () => {
   return (
@@ -30,7 +33,7 @@ const Uber = () => {
             setzen wir auf unseren geschulten Instinkt, unser Handwerk und die
             Magie des digitalen Zeitalters.
           </p>
-          <img className="img-fluid w-50 img-border" src={House} alt="img" />
+          <Image fluid className="w-50 img-border" src={House} alt="img" />
         </Col>
       </Row>
     </Container>

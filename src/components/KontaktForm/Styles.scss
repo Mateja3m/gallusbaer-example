@@ -1,6 +1,37 @@
+.outline {
+    border: 2px solid #D5A77B;
+}
+
+.textarea-font {
+    font-family: helvetica;
+
+}
+
+.outline:focus {
+    border: 2px solid #084474!important;
+
+}
+
+
+
 .textarea-text {
     font-family: helvetica, sans-serif!important;
     height: auto !important;
     padding: 15px 0 15px 50px;
     width: calc(100% - 57px)
+}
+
+.form-text {
+    font-size: 12px;
+    line-height: 15px;
+}
+@media only screen and (max-width: 768px) {
+    .left-side {
+        display: flex;
+        justify-content: space-around;
+        max-width: 100%;
+    }
+    .kontakt-img {
+        width: 25%;
+    }
 }

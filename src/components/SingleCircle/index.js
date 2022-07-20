@@ -1,5 +1,6 @@
-import LogoSM from "../../img/baer_gb.png";
-import {Card, Col, Row } from "react-bootstrap";
+import Card from "react-bootstrap/Card";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";import LogoSM from "../../img/baer_gb.png";
 import "../Losungen/Styles.scss";
 
 const SingleCircle = ({ title, text }) => {

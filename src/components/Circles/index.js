@@ -1,6 +1,7 @@
 import { data } from "../Losungen/data.js";
 import SingleCircle from "../SingleCircle";
-import { Row, Col } from "react-bootstrap";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 const Circles = () => {
   return (
