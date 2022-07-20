@@ -1,9 +1,11 @@
 .outline {
     border: 2px solid #D5A77B;
+    margin: -1px;
 }
 
 .textarea-font {
     font-family: helvetica;
+    font-size: 16px;
 
 }
 
@@ -12,8 +14,6 @@
 
 }
 
-
-
 .textarea-text {
     font-family: helvetica, sans-serif!important;
     height: auto !important;
@@ -21,6 +21,8 @@
     width: calc(100% - 57px)
 }
 
+.kontakt-text {
+    padding: 0 0 2rem 0!important;    }
 .form-text {
     font-size: 12px;
     line-height: 15px;
@@ -35,3 +37,10 @@
         width: 25%;
     }
 }
+
+@media only screen and (min-width: 768px) {
+    #kontakt {
+      padding-top: 10rem;
+      padding-bottom: 10rem;
+    }
+  }

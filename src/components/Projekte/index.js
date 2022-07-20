@@ -1,9 +1,9 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
-import Balgach from "../../img/balgach1.png";
-import "./Styles.scss";
+// import Image from "react-bootstrap/Image";
+// import Balgach from "../../img/balgach1.png";
+import "./styles.scss";
 
 const Projekte = () => {
   return (
@@ -16,17 +16,18 @@ const Projekte = () => {
           </h2>
         </Col>
       </Row>
-      <Row className="d-flex justify-content-center overlay-parent g-0">
-        <Col lg={9}>
-          <Image src={Balgach} alt="img" className="w-25" />
-        </Col>
-        <Col lg={9} className="text">
+         {/* <Row>
+        <Col sm={10} md={2} className='projekte-wrapper'>
+           <Image fluid src={Balgach} alt="img" className="w-75" /> 
+           <div className='text'>
           <h6>
             <strong>Balgach</strong>
           </h6>
           <p>Eigentumswohnung</p>
+          </div>
+        
         </Col>
-      </Row>
+        </Row>  */}
     </Container>
   );
 };

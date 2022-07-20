@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 
 const Circles = () => {
   return (
-       <Row className="g-0">
+       <Row className="g-0 mx-md-5">
        {data.map((item) => {
          const { id, title, text } = item;
           return (

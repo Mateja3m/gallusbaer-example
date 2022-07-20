@@ -2,22 +2,22 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import "./Styles.scss";
+import "./styles.scss";
 import House from "../../img/ueber-uns1.jpg";
 
 const Uber = () => {
   return (
-    <Container id="uber" fluid className="mt-5 px-5">
-      <Row className="justify-content-center g-0">
-        <Col lg={8}>
+    <Container id="uber" fluid className="mt-5">
+      <Row className="justify-content-center">
+        <Col sm={12} lg={8}>
           <h3 className="uber-title">ÜBER UNS</h3>
           <h2 className="uber-text">
             Mit klarem Blick, sicherem Instinkt und viel Erfahrung.
           </h2>
         </Col>
       </Row>
-      <Row className="justify-content-center g-0">
-        <Col
+      <Row className="justify-content-center">
+        <Col sm={12}
           lg={8}
           className="d-lg-flex justify-content-between align-items-center"
         >

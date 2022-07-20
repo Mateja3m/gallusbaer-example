@@ -2,19 +2,18 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Image from "react-bootstrap/Image";
 import Logo from "../../img/LOGO-GALLUS-BAER-v2-01.png";
-import "./Styles.scss";
+import "./styles.scss";
 
 const Header = () => {
   return (
-    
-        <Navbar fixed="top" bg="light" variant="light" expand="lg">
+    <Navbar fixed="top" bg="light" variant="light" expand="lg" className='px-2'>
       <Navbar.Brand className="d-lg-none">
         <Image className="main-logo" src={Logo} alt="logo" />
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mx-auto d-flex align-items-center">
-          <Nav.Link className="immobilien links" href="#immobilien">
+        <Nav className="mx-auto d-flex align-items-md-center align-items-end">
+          <Nav.Link className="immobilien links ms-5 ps-5" href="#immobilien">
             IMMOBILIEN
           </Nav.Link>
           <Nav.Link className="links" href="#projekte">

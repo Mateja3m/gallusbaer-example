@@ -1,6 +1,6 @@
 #losungen {
-  padding: 10rem 15rem;
   background-color: #d5a77b;
+  
 }
 
 .los-heading {
@@ -45,3 +45,13 @@
   font-style: italic;
   line-height: 1.375rem;
 }
+
+
+@media only screen and (min-width: 768px) {
+  #losungen {
+    padding: 10rem 12rem;
+    
+}
+}
+
+

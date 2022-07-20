@@ -1,11 +1,11 @@
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";import LogoSM from "../../img/baer_gb.png";
-import "../Losungen/Styles.scss";
+import "../Losungen/styles.scss";
 
 const SingleCircle = ({ title, text }) => {
   return (
-    <Row className='mx-5 g-0'>
+    <Row className='mx-5'>
       <Col>
         <Card className="bg-light circle text-center p-1 m-2">
           <Card.Body className="inner-circle">
