@@ -16,6 +16,7 @@ const Projekte = () => {
           </h2>
         </Col>
       </Row>
+      {/* Fix this part */}
       {/* <Row className='projekte-row-img d-flex justify-content-sm-start g-0'>
         <Col sm={5} className='projekte-wrapper'>
            <Image fluid src={Balgach} alt="img" className="w-75" /> 

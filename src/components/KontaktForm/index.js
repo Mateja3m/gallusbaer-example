@@ -92,6 +92,7 @@ const KontaktForm = () => {
           </p>
            </Col>
          <Col sm={2} className='mb-sm-2 me-sm-5 me-0 px-sm-1 bg-sm-light d-sm-flex justify-content-sm-center align-items-sm-center order-1'>
+               {/* Fix this part */}
          <Button
          variant='primary'
             type="submit" 

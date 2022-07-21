@@ -33,6 +33,7 @@ const Uber = () => {
             setzen wir auf unseren geschulten Instinkt, unser Handwerk und die
             Magie des digitalen Zeitalters.
           </p>
+          {/* Fix this part - add overlay div */}
           <Image fluid className="w-50 img-border" src={House} alt="img" />
         </Col>
       </Row>
