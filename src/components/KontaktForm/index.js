@@ -69,7 +69,7 @@ const KontaktForm = () => {
           <Form.Check className="m-2" type="checkbox" label="Hypotheken" />
         </Form.Group>
       </Row>
-      <Row className="mb-3  bg-light g-0">
+      <Row className="mb-3 bg-light g-0">
         <Form.Group
           as={Col}
           className="p-2 mb-3"
@@ -78,24 +78,24 @@ const KontaktForm = () => {
           <Form.Control
             as="textarea"
             cols={40}
-            rows={10}
+            rows={10} 
             className="bg-white outline textarea-font text-left px-sm-5 pt-3"
             defaultValue="Liebes Gallus Baer Team, ich habe folgende Anfrage…"
           />
         </Form.Group>
       </Row>
-      <Row className="d-flex justify-content-sm-between align-item-sm-center flex-sm-row flex-column gx-0">
-        <Col md={6}>
-          <p className="form-text w-100 px-3">
+      <Row className=" d-flex flex-column flex-sm-row justify-content-sm-around ms-3 ms-sm-0 g-0">
+        <Col sm={6} className='ps-sm-0 pe-sm-4 pe-4 order-sm-1 order-2'>
+          <p className="form-text me-sm-4 pe-5 py-sm-0 py-3">
             Diese Website ist durch reCAPTCHA geschützt und es gelten die
             Datenschutzbestimmungen und Nutzungsbedingungen von Google
           </p>
            </Col>
-         <Col md={3} className='me-sm-4 align-self-sm-end mb-sm-2 bg-light'>
+         <Col sm={2} className='mb-sm-2 me-sm-5 me-0 px-sm-1 bg-sm-light d-sm-flex justify-content-sm-center align-items-sm-center order-1'>
          <Button
-            variant="primary"
-            type="submit"
-            className="outline text-dark bg-light align-self-sm-center"
+         variant='primary'
+            type="submit" 
+            className="outline px-sm-2 text-dark bg-light btn-text"
           >
             ABSCHICKEN
           </Button>

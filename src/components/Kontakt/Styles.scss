@@ -1,7 +1,7 @@
+
 #kontakt {
   background-color: #c9d4de;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+ 
 }
 
 .kontakt-heading {
@@ -17,9 +17,22 @@
   font-size: min(max(4.5vw, 40px), 60px);
   line-height: min(max(4.5vw, 40px), 60px);
   font-weight: 600;
-  padding: 0 0 4rem 0;
+  padding: 0 0 1rem 0;
   color: #084474;
 }
 .row {
   scrollbar-gutter: 0!important;
 }
+
+
+
+@media only screen and (min-width: 768px) {
+  #kontakt {
+    padding-bottom: 10rem;
+  }
+  .kontakt-text {
+    padding: 0 0 1rem 0;
+
+  }
+}
+

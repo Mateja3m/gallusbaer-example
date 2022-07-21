@@ -8,7 +8,7 @@ import House from "../../img/ueber-uns1.jpg";
 const Uber = () => {
   return (
     <Container id="uber" fluid className="mt-5">
-      <Row className="justify-content-center">
+      <Row className="justify-content-center gx-0">
         <Col sm={12} lg={8}>
           <h3 className="uber-title">ÜBER UNS</h3>
           <h2 className="uber-text">
@@ -16,7 +16,7 @@ const Uber = () => {
           </h2>
         </Col>
       </Row>
-      <Row className="justify-content-center">
+      <Row className="justify-content-center gx-0">
         <Col sm={12}
           lg={8}
           className="d-lg-flex justify-content-between align-items-center"

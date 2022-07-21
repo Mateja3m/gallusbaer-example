@@ -2,6 +2,7 @@ import Header from "../../components/Header";
 import Projekte from "../../components/Projekte";
 import Uber from "../../components/Uber";
 import Losungen from "../../components/Losungen";
+import KontaktImage from "../../components/KontaktImage";
 import Kontakt from "../../components/Kontakt";
 import Footer from "../../components/Footer";
 import Banner from "../../img/main-banner.jpg";
@@ -18,6 +19,7 @@ const Home = () => {
       <Uber />
       <Losungen />
       <Projekte />
+      <KontaktImage />
       <Kontakt />
       <Footer />
     </>
