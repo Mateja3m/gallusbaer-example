@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import "./styles.scss";
+import "./Styles.scss";
 import KontaktIMG from "../../img/logo-karte4.png";
 import KontaktForm from "../../components/KontaktForm";
 

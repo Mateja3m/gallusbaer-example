@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import Balgach from "../../img/balgach1.png";
-import "./styles.scss";
+import "./Styles.scss";
 
 const Projekte = () => {
   return (
