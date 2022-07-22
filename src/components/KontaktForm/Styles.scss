@@ -2,10 +2,15 @@
     border: 2px solid #D5A77B;
 }
 
-.outline:focus {
-    border: 2px solid #084474!important;
-
+.outline-btn {
+    border: 2px solid #084474;
+    cursor:pointer;
 }
+.outline-btn:hover {
+    border: 2px solid #084474;
+    cursor:pointer;
+}
+
 .textarea-font {
     font-family: helvetica;
     font-size: 16px;
@@ -19,7 +24,6 @@
 
 .btn-text {
     font-size: 13px;
-    padding: 10px 14px;
 }
 
 

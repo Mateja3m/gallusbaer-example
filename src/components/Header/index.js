@@ -7,7 +7,7 @@ import "./styles.scss";
 const Header = () => {
   return (
     <Navbar fixed="top" bg="light" variant="light" expand="lg" className='px-2'>
-      <Navbar.Brand className="d-lg-none">
+      <Navbar.Brand className="d-lg-none ms-1 ms-sm-0">
         <Image className="main-logo" src={Logo} alt="logo" />
       </Navbar.Brand>
       <Navbar.Toggle />

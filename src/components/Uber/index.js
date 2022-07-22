@@ -19,12 +19,12 @@ const Uber = () => {
       <Row className="justify-content-center gx-0">
         <Col sm={12}
           lg={8}
-          className="d-lg-flex justify-content-between align-items-center"
+          className="d-sm-flex justify-content-sm-between align-items-center"
         >
-          <p>
+          <p className='px-0'>
             Gallus Baer ist ein Immobilienunternehmen mit einer Leidenschaft für
             grossartige Objekte, makellosen Service und aussergewöhnliche Ideen.
-            Wir arbeiten mit traditionellen Werten und einer modernen
+            Wir arbeiten mit traditionelle n Werten und einer modernen
             Ausrichtung. Die Immobilienwelt, wie wir sie betrachten, ist weitaus
             mehr als ein Ein- und Verkaufen. Jede Immobilie besitzt Charakter
             und Eigenheiten. Unsere Aufgabe ist es, dieses Potenzial zu
@@ -33,8 +33,8 @@ const Uber = () => {
             setzen wir auf unseren geschulten Instinkt, unser Handwerk und die
             Magie des digitalen Zeitalters.
           </p>
-          {/* Fix this part - add overlay div */}
-          <Image fluid className="w-50 img-border" src={House} alt="img" />
+          {/* Fix this part, add overlay border */}
+        <Image fluid className="w-50 img-border overlay" src={House} alt="img" />
         </Col>
       </Row>
     </Container>

@@ -14,7 +14,7 @@ const Home = () => {
     <>
       <Header />
       <Row id="immobilien" className='gx-0'>
-        <Image fluid className="col-12" src={Banner} />
+        <Image fluid src={Banner} />
       </Row>
       <Uber />
       <Losungen />

@@ -5,11 +5,10 @@
   font-weight: 500;
 }
 
+
 .main-logo {
   max-width: 100%;
   height: auto;
-  align-items: center;
-  margin: 10px;
 }
 .links {
   @include nav-links-style;

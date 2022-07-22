@@ -8,9 +8,9 @@ const Losungen = () => {
   return (
     <Container fluid id="losungen" className='mt-5 pb-5'>
       <Row>
-        <Col lg={9} className="mt-5 m-auto">
+        <Col lg={9} className="mt-5 m-auto"> 
           <h3 className="text-center los-heading">IHR ZIEL IST DAS ZIEL.</h3>
-          <h2 className="text-center text-light los-text">
+          <h2 className="text-center text-light los-text pb-5">
             Vom Suchen, Finden und <br />
             Vermitteln der
             <br /> Traumimmobilien.

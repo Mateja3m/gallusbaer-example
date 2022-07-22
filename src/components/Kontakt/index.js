@@ -12,7 +12,7 @@ const Kontakt = () => {
   return (
     
     <Container id="kontakt" fluid >
-      <Row className='d-flex justify-content-sm-center align-items-sm-start p-3 gx-0'>
+      <Row className='justify-content-sm-center align-items-sm-start p-3 gx-0'>
         <Col md={3} className='ms-sm-5 pt-sm-5 d-flex flex-sm-column align-items-sm-center justify-content-start'>
           <Image fluid src={KontaktIMG} alt="Kontakt" className='w-50 pt-sm-3 px-sm-0 pe-sm-0 align-self-center pe-sm- pe-2'/>
           <p className="p-sm-4 text-left align-self-center">
@@ -25,8 +25,8 @@ const Kontakt = () => {
           </p>
         </Col>
         <Col sm={6} className="align-self-start">
-          <h1 className="kontakt-heading pt-5">KONTAKT</h1>
-          <h2 className="kontakt-text">
+          <h1 className="kontakt-heading pt-5 pb-2">KONTAKT</h1>
+          <h2 className="kontakt-text pb-1">
             Überzeugen Sie sich <br /> selbst.
             <br /> Lassen Sie sich beraten.
           </h2>

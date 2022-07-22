@@ -12,7 +12,6 @@ const Circles = () => {
             <Col
               key={id}
               className="d-flex justify-content-center"
-              lg={4}
               md={4}
               sm={6}
             >

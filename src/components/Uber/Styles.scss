@@ -21,20 +21,29 @@
   
 }
 
-.img-border::after {
-  content: "";
-  height: 40%;
-  width: 60%;
-  position: absolute;
-  border: 2px solid #d5a77b;
-  left: -15px;
-  bottom: -15px;
-}
+// .img-border::after {
+//   content: '';
+//   width: 28%;
+//   height: 38%;
+//   position: absolute;
+//   border: 2px solid #D5A77B;
+//   right: 220px;
+//   bottom: -15px;
+// }
 
 @media only screen and (max-width: 768px) {
   .img-border {
     width: 100% !important;
   }
+  // .overlay::after {
+  //   content: '';
+  //   width: 50%;
+  //   height: 23%;
+  //   position: absolute;
+  //   border: 2px solid #D5A77B;
+  //   right: 195px;
+  //   bottom: -9px;
+  // }
 }
 
 @media only screen and (min-width: 768px) {

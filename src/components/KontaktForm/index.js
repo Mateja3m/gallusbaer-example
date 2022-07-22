@@ -91,15 +91,8 @@ const KontaktForm = () => {
             Datenschutzbestimmungen und Nutzungsbedingungen von Google
           </p>
            </Col>
-         <Col sm={2} className='mb-sm-2 me-sm-5 me-0 px-sm-1 bg-sm-light d-sm-flex justify-content-sm-center align-items-sm-center order-1'>
-               {/* Fix this part */}
-         <Button
-         variant='primary'
-            type="submit" 
-            className="outline px-sm-2 text-dark bg-light btn-text"
-          >
-            ABSCHICKEN
-          </Button>
+         <Col xs={3} sm={2} className='mb-sm-2 me-sm-5 p-1 px-sm-1 bg-light d-flex justify-content-center align-items-sm-center order-1'>
+          <Button variant='light' className="outline-btn p-1 p-sm-2 btn-text">ABSCHICKEN</Button>
         </Col>
       </Row>
     </Form>
