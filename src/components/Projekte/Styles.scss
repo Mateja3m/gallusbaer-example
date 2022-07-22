@@ -44,13 +44,11 @@
   border: 2px solid #084474;
 }
 
-// smanjiti right and bottom na small na 0 preko media query
-
 @media only screen and (max-width: 768px) {
 .projekte-text-row-2 {
   position: absolute;
-  bottom: -10px;
-  left: 75px;
+  bottom: -30px;
+  left: 90px;
   border: 2px solid #d6a67a;
   width: 130px;
   height: 80px;

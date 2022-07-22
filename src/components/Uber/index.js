@@ -17,9 +17,11 @@ const Uber = () => {
         </Col>
       </Row>
       <Row className="justify-content-center gx-0">
-        <Col sm={12}
+        <Col 
+          xs={12} 
+          md={12}
           lg={8}
-          className="d-sm-flex justify-content-sm-between align-items-center"
+          className="d-sm-flex justify-content-sm-between align-items-center overlay"
         >
           <p className='px-0'>
             Gallus Baer ist ein Immobilienunternehmen mit einer Leidenschaft für
@@ -33,8 +35,7 @@ const Uber = () => {
             setzen wir auf unseren geschulten Instinkt, unser Handwerk und die
             Magie des digitalen Zeitalters.
           </p>
-          {/* Fix this part, add overlay border */}
-        <Image fluid className="w-50 img-border overlay" src={House} alt="img" />
+        <Image fluid className="w-50 img-border" src={House} alt="img" />
         </Col>
       </Row>
     </Container>

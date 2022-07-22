@@ -12,14 +12,12 @@ const KontaktForm = () => {
           <Form.Control
             className="p-2 outline"
             type="text"
-            placeholder="Enter name"
           />
         </Form.Group>
         <Form.Group as={Col} className="p-2 my-2 bg-light">
           <Form.Control
             className="p-2 outline"
             type="text"
-            placeholder="Enter last name"
           />
         </Form.Group>
       </Row>
@@ -28,14 +26,12 @@ const KontaktForm = () => {
           <Form.Control
             className="outline p-2"
             type="text"
-            placeholder="Enter mail"
           />
         </Form.Group>
         <Form.Group as={Col} className="p-2 my-2 bg-light">
           <Form.Control
             className="outline p-2"
             type="text"
-            placeholder="Enter betreff"
           />
         </Form.Group>
       </Row>
