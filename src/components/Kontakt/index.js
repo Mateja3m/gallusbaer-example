@@ -14,7 +14,7 @@ const Kontakt = () => {
     <Container id="kontakt" fluid >
       <Row className='justify-content-sm-center align-items-sm-start gx-0'>
         <Col md={3} className='ms-sm-5 pt-sm-5 d-flex flex-sm-column align-items-sm-center justify-content-start'>
-          <Image fluid src={KontaktIMG} alt="Kontakt" className='w-50 pt-sm-3 px-sm-0 pe-sm-0 align-self-center pe-4'/>
+          <Image fluid src={KontaktIMG} alt="Kontakt" className='w-50 pt-sm-3 px-sm-0 pe-sm-0 align-self-center py-3 pe-3'/>
           <p className="p-sm-4 text-left align-self-center">
             Gallus Baer AG <br />
             Brühlgasse 25 <br /> 

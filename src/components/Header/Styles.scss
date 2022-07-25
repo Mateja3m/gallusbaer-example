@@ -16,6 +16,7 @@
   box-shadow:none
 }
 .main-logo {
+  width: 110px;
   max-width: 100%;
   height: auto;
 }
@@ -29,8 +30,18 @@
     color: black;
     padding: 0;
   }
- 
+
+  .navbar {
+    box-shadow: 5px 5px 20px 2px rgb(0 0 0 / 20%)
+  }
+  .fixed-top {
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
 }
+
 
 
    

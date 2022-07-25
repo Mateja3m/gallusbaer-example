@@ -12,9 +12,9 @@ const Losungen = () => {
         <Col lg={9} className="mt-5 m-auto"> 
           <h3 className="text-center los-heading">IHR ZIEL IST DAS ZIEL.</h3>
           <h2 className="text-center text-light los-text pb-5">
-            Vom Suchen, Finden und <br />
+            Vom Suchen, Finden und 
             Vermitteln der
-            <br /> Traumimmobilien.
+            Traumimmobilien.
           </h2>
         </Col>
       </Row>

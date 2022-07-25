@@ -10,7 +10,7 @@ const SingleCircle = ({ title, text }) => {
       <Col>
         <Card className="bg-light circle text-center p-2 m-2">
           <Card.Body className="inner-circle">
-            <Card.Img className="circle-img p-md-0 mt-0 p-1 mb-3" src={LogoSM} alt="baer" />
+            <Card.Img className="circle-img p-md-0 mt-0 p-2 mb-1" src={LogoSM} alt="baer" />
             <Card.Title className="circle-title m-1">{title}</Card.Title>
             <Card.Text className="circle-text">{text}</Card.Text>
           </Card.Body>

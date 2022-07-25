@@ -10,7 +10,7 @@ const Uber = () => {
     <Container id="uber" fluid className="mt-5">
       <Row className="justify-content-center gx-0">
         <Col sm={12} lg={8}>
-          <h3 className="uber-title pb-2">ÜBER UNS</h3>
+          <h3 className="uber-title pb-2 mt-sm-0 mt-5">ÜBER UNS</h3>
           <h2 className="uber-text">
             Mit klarem Blick, sicherem Instinkt und viel Erfahrung.
           </h2>

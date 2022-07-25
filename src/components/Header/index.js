@@ -6,9 +6,9 @@ import "./Styles.scss";
 
 const Header = () => {
   return (
-    <Navbar fixed="top" expand="lg" className='p-1 py-sm-4 shadow mb-5 bg-white rounded'>
-      <Navbar.Brand className="d-lg-none p-1 ms-1 ms-sm-0">
-        <Image className="main-logo pe-3 pb-2" src={Logo} alt="logo" />
+    <Navbar sticky="top" expand="lg" className='pb-3'>
+      <Navbar.Brand className="d-sm-none">
+        <Image className="main-logo ms-2 p-2" src={Logo} alt="logo" />
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse id="basic-navbar-nav">
