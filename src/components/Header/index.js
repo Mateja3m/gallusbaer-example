@@ -6,13 +6,13 @@ import "./Styles.scss";
 
 const Header = () => {
   return (
-    <Navbar fixed="top" expand="lg" className='p-2 shadow mb-5 bg-white rounded'>
+    <Navbar fixed="top" expand="lg" className='p-1 py-sm-4 shadow mb-5 bg-white rounded'>
       <Navbar.Brand className="d-lg-none p-1 ms-1 ms-sm-0">
         <Image className="main-logo pe-3 pb-2" src={Logo} alt="logo" />
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mx-auto d-flex align-items-md-center align-items-end">
+        <Nav className="mx-auto d-flex align-items-md-center align-items-end pe-3 pe-sm-0">
           <Nav.Link className="immobilien links ms-5 ps-5" href="#immobilien">
             IMMOBILIEN
           </Nav.Link>
