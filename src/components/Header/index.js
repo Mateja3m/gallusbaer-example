@@ -2,13 +2,13 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Image from "react-bootstrap/Image";
 import Logo from "../../img/LOGO-GALLUS-BAER-v2-01.png";
-import "./Styles.scss";
+import "./styles.scss";
 
 const Header = () => {
   return (
-    <Navbar fixed="top" bg="light" variant="light" expand="lg" className='px-2'>
-      <Navbar.Brand className="d-lg-none ms-1 ms-sm-0">
-        <Image className="main-logo" src={Logo} alt="logo" />
+    <Navbar fixed="top" expand="lg" className='p-2 shadow mb-5 bg-white rounded'>
+      <Navbar.Brand className="d-lg-none p-1 ms-1 ms-sm-0">
+        <Image className="main-logo pe-3 pb-2" src={Logo} alt="logo" />
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse id="basic-navbar-nav">

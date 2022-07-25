@@ -2,36 +2,40 @@ import Row from 'react-bootstrap/Row'
 import Form from 'react-bootstrap/Form'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
-import './Styles.scss'
+import './styles.scss'
 
 const KontaktForm = () => {
   return (
     <Form>
       <Row className="g-0 flex-sm-row flex-column">
-        <Form.Group as={Col} className="me-3 p-2 my-2 bg-light">
+         <Form.Group as={Col} className="me-3 p-1 my-2 bg-light">
           <Form.Control
             className="p-2 outline"
             type="text"
-          />
-        </Form.Group>
-        <Form.Group as={Col} className="p-2 my-2 bg-light">
+            placeholder='Vorname' />
+         </Form.Group>
+         
+        <Form.Group as={Col} className="p-1 my-2 bg-light">
           <Form.Control
             className="p-2 outline"
             type="text"
+            placeholder='Nachname'
           />
         </Form.Group>
       </Row>
       <Row className="mb-3 g-0 flex-sm-row flex-column">
-        <Form.Group as={Col} className="p-2 me-3 my-2 bg-light">
+        <Form.Group as={Col} className="p-1 me-3 my-2 bg-light">
           <Form.Control
             className="outline p-2"
-            type="text"
+            type="email"
+            placeholder='Email'
           />
         </Form.Group>
-        <Form.Group as={Col} className="p-2 my-2 bg-light">
+        <Form.Group as={Col} className="p-1 my-2 bg-light">
           <Form.Control
             className="outline p-2"
             type="text"
+            placeholder='Betreff'
           />
         </Form.Group>
       </Row>
@@ -40,7 +44,7 @@ const KontaktForm = () => {
           <p className="mb-1">Ich bin interessiert an:</p>
         </Col>
       </Row>
-      <Row className="mb-3 p-2 bg-light g-0">
+      <Row className="mb-3 p-1 bg-light g-0">
         <Form.Group
           as={Col}
           className="bg-light d-flex flex-wrap align-items-sm-center align-items-start outline flex-sm-row flex-column"
@@ -68,7 +72,7 @@ const KontaktForm = () => {
       <Row className="mb-3 bg-light g-0">
         <Form.Group
           as={Col}
-          className="p-2 mb-3"
+          className="p-1 mb-3"
           controlId="exampleForm.ControlTextarea1"
         >
           <Form.Control
@@ -87,8 +91,8 @@ const KontaktForm = () => {
             Datenschutzbestimmungen und Nutzungsbedingungen von Google
           </p>
            </Col>
-         <Col xs={3} sm={2} className='mb-sm-2 me-sm-5 p-1 px-sm-1 bg-light d-flex justify-content-center align-items-sm-center order-1'>
-          <Button variant='light' className="outline-btn p-1 p-sm-2 btn-text">ABSCHICKEN</Button>
+         <Col xs={4} sm={2} className='mb-sm-2 me-sm-5 p-1 px-sm-1 bg-light d-flex justify-content-center align-items-sm-center order-1'>
+          <Button variant='light' className="outline-btn p-sm-2 btn-text w-100">ABSCHICKEN</Button>
         </Col>
       </Row>
     </Form>

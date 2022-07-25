@@ -7,6 +7,7 @@ import Kontakt from "../../components/Kontakt";
 import Footer from "../../components/Footer";
 import Banner from "../../img/main-banner.jpg";
 import Row  from "react-bootstrap/Row";
+import Col  from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 
 const Home = () => {
@@ -14,7 +15,9 @@ const Home = () => {
     <>
       <Header />
       <Row id="immobilien" className='gx-0'>
-        <Image fluid src={Banner} />
+        <Col>
+        <Image fluid src={Banner}/>
+    </Col>
       </Row>
       <Uber />
       <Losungen />

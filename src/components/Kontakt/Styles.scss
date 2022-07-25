@@ -1,6 +1,7 @@
 #kontakt {
   background-color: #c9d4de;
- 
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 .kontakt-heading {
@@ -23,10 +24,10 @@
 
 
 
-@media only screen and (min-width: 768px) {
+
+@media only screen and (max-width: 768px) {
   #kontakt {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 6rem;
   }
 
 }

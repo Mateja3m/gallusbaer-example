@@ -4,7 +4,17 @@
   color: #084474 !important;
   font-weight: 500;
 }
+.navbar {
+  background-color: white;
+  
+}
 
+.navbar-toggler {
+  border:none
+}
+.navbar-toggler:focus {
+  box-shadow:none
+}
 .main-logo {
   max-width: 100%;
   height: auto;
@@ -19,6 +29,7 @@
     color: black;
     padding: 0;
   }
+ 
 }
 
 

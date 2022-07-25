@@ -3,7 +3,7 @@ import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Logo from "../../img/LOGO-GALLUS-BAER-v2-01.png";
-import './Styles.scss'
+import './styles.scss'
 
 
 const Footer = () => {

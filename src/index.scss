@@ -1,5 +1,45 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,700&display=swap");
-
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url(fonts/josefinSans/JosefinSans-Thin.ttf);
+  font-style: italic;
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url(fonts/josefinSans/JosefinSans-Light.ttf);
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url(fonts/josefinSans/JosefinSans-Regular.ttf);
+  font-style:normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url(fonts/josefinSans/JosefinSans-Medium.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url(fonts/josefinSans/JosefinSans-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url(fonts/josefinSans/JosefinSans-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'RawsonAlt-Bold';
+  src: url(fonts/Rawson/RawsonAltBold.otf);
+  font-style: normal;
+  font-weight: 600;
+}
 * {
   margin: 0;
   padding: 0;
