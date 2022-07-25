@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import KontaktIMG from "../../img/logo-karte4.png";
 import KontaktForm from "../../components/KontaktForm";
-import "./styles.scss";
+import "./Styles.scss";
 
 
 

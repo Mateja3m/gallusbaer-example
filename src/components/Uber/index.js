@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import House from "../../img/ueber-uns1.jpg";
-import "./styles.scss";
+import "./Styles.scss";
 
 const Uber = () => {
   return (
