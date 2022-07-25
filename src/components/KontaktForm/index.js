@@ -92,7 +92,7 @@ const KontaktForm = () => {
           </p>
            </Col>
          <Col xs={4} sm={2} className='mb-sm-2 me-sm-5 p-1 px-sm-1 bg-light d-flex justify-content-center align-items-sm-center order-1'>
-          <Button variant='light' className="outline-btn p-sm-2 btn-text w-100">ABSCHICKEN</Button>
+          <Button variant='light' className="outline-btn p-2 btn-text">ABSCHICKEN</Button>
         </Col>
       </Row>
     </Form>
